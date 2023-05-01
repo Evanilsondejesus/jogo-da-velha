@@ -1,0 +1,168 @@
+
+*{
+margin: 0;
+padding: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#tabuleiro{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    width: 200px;
+  
+    margin: auto;
+    
+    }
+    #resultado{
+    text-align: center;
+    color: brown;
+    display: block;
+    border: 1px solid;
+    
+    }
+    #dv_jogador{ 
+        margin: auto;
+        width: 45vw;
+        border: 1px solid;
+    }
+    #digite_nome {
+        width: 96%;
+        margin-right: 2%;
+        margin-left: 1%;
+    }
+
+    #btn_salvar{
+        margin-left: 40%;
+        background-color: white;
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    h1{
+        background-color: #6D6161;
+        color: aliceblue;
+        padding-bottom: 2%;
+    }
+    #painel{
+        background-color: #BBA3A3;
+        color: aliceblue;
+      
+
+    }
+    
+    #pontos{
+        display: grid;
+        background-color: #BBA3A3;
+        color: #000;
+        grid-template-columns: 200px 50px;
+        border: 1px solid;
+        
+    }
+    .class_pontos{
+color: white;
+    }
+
+
+    
+#tabuleiro button:nth-child(1){
+    background: white;
+    border: none;
+    
+    border-bottom: 3px solid brown;
+    border-right: 3px solid brown;
+    
+    font-size: 30px;
+    }
+    
+
+    
+#tabuleiro button:nth-child(2){
+    background: white;
+    border: none;
+    
+    border-right: 3px solid brown;
+    border-bottom: 3px solid brown;
+    
+    font-size: 30px;
+    }
+    
+    
+#tabuleiro button:nth-child(3){
+    background: white;
+    border: none;
+   
+    border-bottom: 3px solid brown;
+    
+    font-size: 30px;
+    }
+    
+#tabuleiro button:nth-child(4){
+    background: white;
+    border: none;
+    
+    border-bottom: 3px solid brown;
+    border-right: 3px solid brown;
+    
+    font-size: 30px;
+    }
+    
+
+    
+#tabuleiro button:nth-child(5){
+    background: white;
+    border: none;
+    
+    border-right: 3px solid brown;
+    border-bottom: 3px solid brown;
+    
+    font-size: 30px;
+    }
+    
+    
+#tabuleiro button:nth-child(6){
+    background: white;
+    border: none;
+   
+    border-bottom: 3px solid brown;
+    
+    font-size: 30px;
+    }
+    
+    
+#tabuleiro button:nth-child(7){
+    background: white;
+    border: none;
+    border-right: 3px solid brown;
+    
+    font-size: 30px;
+    }
+    
+
+    
+#tabuleiro button:nth-child(8){
+    background: white;
+    border: none;
+    
+    border-right: 3px solid brown;
+    
+    font-size: 30px;
+    }
+    
+    
+#tabuleiro button:nth-child(9){
+    background: white;
+    border: none;
+   
+    font-size: 30px;
+    }
+    
